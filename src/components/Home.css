@@ -1,0 +1,92 @@
+body{
+    background-color: white;
+    color: black;
+}
+.locationDiv{
+    display: flex;
+    flex-direction: column;
+    
+}
+.locationDiv>button{
+    width: 100px;
+    height:40px ;
+    margin: auto;
+    background-color:deepskyblue;
+    color: white;
+    margin-top: 50px;
+}
+.booking{
+    width: 200px;
+    height:40px ;
+    margin: auto;
+    background-color:deepskyblue;
+    color: white;
+    margin-top: 200px;   
+}
+.chooseLocation{
+    color: black;
+}
+.drListDiv{
+   
+  color:black;
+}
+.drList{
+    display: flex;;
+    flex-direction: column;
+}
+.drList>button{
+    width: 600px;
+    height:40px ;
+    margin: auto;
+    background-color:deepskyblue;
+    color: white;
+    margin-top: 20px;    
+}
+.patientList{
+    width: 450px;
+    height: 450px;
+    /* background-color:deepskyblue; */
+    color: black;
+    margin: auto;
+}
+.schedule_btn{
+    display: flex;
+    justify-content: space-between;
+   margin: auto;
+    
+    width: 60%;
+    /* background-color:deepskyb;
+    color: white; */
+    margin-top: 2%;
+
+}
+.schedule_btn>button{
+    height: 35px;
+    width: 150px;
+    background-color:deepskyblue;
+    color: white;
+}
+.save_btn{
+    background-color:deepskyblue;
+    color: white; 
+    margin-top:5%;
+}
+.containerr{
+    display:flex;
+    width:100%;
+    height:620px;
+}
+.left{
+    width:25%;
+    background-color:rgb(34,41,55);
+    height:100%;
+
+}
+.right{
+width:75%;
+height:100%;
+}
+.doc_img{
+    width:100%;
+    height:100%;
+}
